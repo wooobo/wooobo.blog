@@ -5,6 +5,9 @@
   "version": "3.0.0",
   "author": "zoomkoding <zoomkoding@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
     "gatsby": "^4.9.3",
@@ -12,6 +15,7 @@
     "gatsby-plugin-google-analytics": "^4.9.0",
     "gatsby-plugin-image": "^2.9.1",
     "gatsby-plugin-manifest": "^4.9.1",
+    "gatsby-plugin-material-ui": "^4.1.0",
     "gatsby-plugin-offline": "^5.9.1",
     "gatsby-plugin-react-helmet": "^5.9.0",
     "gatsby-plugin-robots-txt": "^1.7.0",
@@ -31,6 +35,7 @@
     "prismjs": "^1.24.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-rotating-text": "^1.4.1",
     "sass": "^1.43.4",
     "typeface-montserrat": "^1.1.13"

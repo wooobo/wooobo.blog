@@ -17,21 +17,6 @@ function BlogTemplate({ data }) {
   const { siteUrl, comments } = data.site?.siteMetadata;
   const utterancesRepo = comments?.utterances?.repo;
 
-  useEffect(() => {
-    if (!siteUrl) return;
-    const namespace = siteUrl.replace(/(^\w+:|^)\/\//, '');
-    const key = curPost.slug.replace(/\//g, '');
-
-    fetch(
-      `https://api.countapi.xyz/${
-        process.env.NODE_ENV === 'development' ? 'get' : 'hit'
-      }/${namespace}/${key}`,
-    ).then(async (result) => {
-      const data = await result.json();
-      setViewCount(data.value);
-    });
-  }, [siteUrl, curPost.slug]);
-
   return (
     <Layout>
       <Seo title={curPost?.title} description={curPost?.excerpt} />
