@@ -11,7 +11,7 @@ module.exports = {
   },
   ga: 'h09jEyT5NywzMyE9_S2ROPWsONJiMbErl5nDiMkG4a0', // Google Analytics Tracking ID
   author: {
-    name: `Wooobo`,
+    name: ``,
     bio: {
       role: `개발자`,
       description: ['현실의 문제를', '함께 고민하고', '소프트웨어로 해결하는'],
